@@ -80,6 +80,7 @@ body {
 }
 #wrapper h3 {
 	font-size: 15px;
+	margin-left: 55px;
 	margin-bottom: 3em;
 }
 
@@ -87,7 +88,7 @@ body {
 	background-color: rgb(131, 116, 100);
 	color: white;
 	box-shadow: 2px;
-	margin-left: 10px;
+	margin-left: 67px;
 }
 #wrapper button:hover {
 	background-color: rgba(51, 11, 2, 0.3);
