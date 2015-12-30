@@ -61,7 +61,7 @@ body {
 	background-image: url("../images/background/background.jpg");
 	height: 550px;
 	background-size: cover;
-	text-align: left;
+	text-align: right;
 	padding-top: 150px; 
 	color: rgb(131, 116, 100);
 	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);	
