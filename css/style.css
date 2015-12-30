@@ -61,7 +61,7 @@ body {
 	background-image: url("../images/background/background.jpg");
 	height: 550px;
 	background-size: cover;
-	text-align: right;
+	text-align: left;
 	padding-top: 150px; 
 	color: rgb(131, 116, 100);
 	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);	
@@ -87,6 +87,7 @@ body {
 	background-color: rgb(131, 116, 100);
 	color: white;
 	box-shadow: 2px;
+	margin-left: 10px;
 }
 #wrapper button:hover {
 	background-color: rgba(51, 11, 2, 0.3);
