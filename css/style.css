@@ -43,9 +43,15 @@ body {
 .navbar-transparent .navbar-nav > li > a:hover,
 .navbar-transparent .navbar-nav > li > a:active,
 .navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > li > button:hover,
+.navbar-transparent .navbar-nav > li > button:active,
+.navbar-transparent .navbar-nav > li > button:focus,
 .navbar-transparent .navbar-nav > .open > a,
 .navbar-transparent .navbar-nav > .open > a:hover,
-.navbar-transparent .navbar-nav > .open > a:focus {
+.navbar-transparent .navbar-nav > .open > a:focus 
+.navbar-transparent .navbar-nav > .open > button,
+.navbar-transparent .navbar-nav > .open > button:hover,
+.navbar-transparent .navbar-nav > .open > button:focus {
   color: white;
   background-color: rgba(51, 11, 2, 0.3);
 }
@@ -56,6 +62,13 @@ body {
   color: white;
 }
 
+.modal-body {
+	background-color: white;
+}
+.modal-title {
+	font-family: 'Open Sans', sans-serif; 
+	color: rgb(131, 116, 100);
+}
 
 #wrapper {
 	background-image: url("../images/background/background.jpg");
