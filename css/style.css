@@ -8,7 +8,9 @@ body {
 	color: rgb(131, 116, 100);
 	font-size: 18px;
 	padding-top: 3em;
-	padding-bottom: 3em;
+	padding-bottom: 2em;
+	bottom: 0;
+	width: cover;
 }
 
 #footer a {
@@ -56,6 +58,7 @@ body {
 .navbar-transparent :focus {
   color: white;
 }
+
 
 .modal-body {
 	background-color: white;
@@ -128,3 +131,10 @@ body {
 	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);	
 
 }
+
+img .hoverview{
+   width:200px;
+   height:40px;
+}
+
+
