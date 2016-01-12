@@ -30,8 +30,8 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Homme <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Manteaux</a></li>
-            <li><a href="#">Vestes</a></li>
-            <li><a href="#">Ceintures</a></li>
+            <li><a href="veste.html">Vestes</a></li>
+            <li><a href="#">Accessoires</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="homme.html">Voir Tout</a></li>
           </ul>
@@ -42,15 +42,13 @@
             <li><a href="#">Manteaux</a></li>
             <li><a href="#">Vestes</a></li>
             <li><a href="#">Pantalons</a></li>
-            <li><a href="#">Sacs</a></li>
-            <li><a href="#">Pochettes & Portefeuilles</a></li>
-            <li><a href="#">Ceintures</a></li>
+            <li><a href="#">Accessoires</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#">Voir Tout</a></li>
           </ul>
 
         <li class="dropdown">
-            <li><a href="#" type="button" class="dropdown-toggle"> Contactez-nous !</button></li>
+            <li><a href="#" type="button" class="dropdown-toggle"> Contactez-nous !</button></li></a>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -58,41 +56,39 @@
 </nav>
 
 <div class="vertical spacer">
-<div class="container">
-  <div class="row">
-    <div class="col-sm-6">
-      <div id="map" style="width: 100%; height: 400px;"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div id="map" style="width: 100%; height: 400px;"></div>
 
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+          <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
-<script type="text/javascript">
-  var myLatlng = new google.maps.LatLng(50.8367720,4.3307240);
+          <script type="text/javascript">
+          var myLatlng = new google.maps.LatLng(50.8367720,4.3307240);
 
-  var myOptions = {
-      zoom: 14,
-      center: myLatlng,
-      mapTypeId: google.maps.MapTypeId.ROADMAP,
-      styles: [{"featureType":"water","stylers":[{"saturation":43},{"lightness":-11},{"hue":"#0088ff"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"hue":"#ff0000"},{"saturation":-100},{"lightness":99}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"color":"#808080"},{"lightness":54}]},{"featureType":"landscape.man_made","elementType":"geometry.fill","stylers":[{"color":"#ece2d9"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#ccdca1"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#767676"}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]},{"featureType":"landscape.natural","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#b8cb93"}]},{"featureType":"poi.park","stylers":[{"visibility":"on"}]},{"featureType":"poi.sports_complex","stylers":[{"visibility":"on"}]},{"featureType":"poi.medical","stylers":[{"visibility":"on"}]},{"featureType":"poi.business","stylers":[{"visibility":"simplified"}]}]
-  };
+         var myOptions = {
+          zoom: 14,
+          center: myLatlng,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          styles: [{"featureType":"water","stylers":[{"saturation":43},{"lightness":-11},{"hue":"#0088ff"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"hue":"#ff0000"},{"saturation":-100},{"lightness":99}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"color":"#808080"},{"lightness":54}]},{"featureType":"landscape.man_made","elementType":"geometry.fill","stylers":[{"color":"#ece2d9"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#ccdca1"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#767676"}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]},{"featureType":"landscape.natural","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#b8cb93"}]},{"featureType":"poi.park","stylers":[{"visibility":"on"}]},{"featureType":"poi.sports_complex","stylers":[{"visibility":"on"}]},{"featureType":"poi.medical","stylers":[{"visibility":"on"}]},{"featureType":"poi.business","stylers":[{"visibility":"simplified"}]}]};
+          var map = new google.maps.Map(document.getElementById('map'), myOptions);
+          var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          title: "You are here!"});
+         </script>
+        </div>
+      </div>
 
-  var map = new google.maps.Map(document.getElementById('map'), myOptions);
-  var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: "You are here!"
-  });
-</script>
-    </div>
-
-<div class="col-sm-6">
-      <div class="contact">
-      <h1>Contact</h1>
-      <p><i class="fa fa-map-marker"></i> Adresse: Rue de l'Instruction 121, 1070 Anderlecht </p>
-      <p><i class="fa fa-phone"></i> Téléphone:02 522 81 28</p>
+      <div class="col-sm-6">
+        <div class="contact">
+        <h1>Contact</h1>
+        <p><i class="fa fa-map-marker"></i> Adresse: Rue de l'Instruction 121, 1070 Anderlecht </p>
+        <p><i class="fa fa-phone"></i> Téléphone:02 522 81 28</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </div>
 
 

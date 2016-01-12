@@ -129,12 +129,46 @@ body {
 	padding-top: 50px; 
 	color: white;
 	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);	
-
 }
 
-img .hoverview{
-   width:200px;
-   height:40px;
+#tooplate_main {
+	padding-top: 30px;
+	position: relative;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#tooplate_main .main_border {
+	width: 960px;
+	height: 10px;
+}
+#tooplate_main .main_border_t {
+	top: -10px;
+}
+#tooplate_main .main_border_b { 
+	bottom: -10px;
+}
+
+#tooplate_main h1 {
+	color: white;
+	font-size: 40px;
+	margin-left: 5px;
+}
+
+#tooplate_main h2 {
+	color: white;
+	font-size: 20px;
+}
+
+#tooplate_main .price p {
+	color: white;
+	font-size: 15px;
+}
+
+.product img{
+	height: 250px;
+	width: 220px;
+	border: 2px solid black;
+	border-radius: 5px;
 }
 
 
