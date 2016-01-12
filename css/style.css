@@ -10,7 +10,6 @@ body {
 	padding-top: 3em;
 	padding-bottom: 2em;
 	bottom: 0;
-	width: cover;
 }
 
 #footer a {
@@ -131,42 +130,54 @@ body {
 	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);	
 }
 
-#tooplate_main {
-	padding-top: 30px;
-	position: relative;
-	margin-bottom: 20px;
+.wrappers {
+	width: 720px;
+	margin: 50px;
+}
+
+.header {
+		margin: 40px 0px 20px 0px;
+}
+.entry {
+	width: 240px;
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 230px;
+
+}
+
+figure {
+	display: block;
+	height: 125px;
 	text-align: center;
 }
-#tooplate_main .main_border {
-	width: 960px;
-	height: 10px;
-}
-#tooplate_main .main_border_t {
-	top: -10px;
-}
-#tooplate_main .main_border_b { 
-	bottom: -10px;
-}
 
-#tooplate_main h1 {
-	color: white;
+
+.wrappers h1 {
 	font-size: 40px;
-	margin-left: 5px;
+	color: white;
 }
 
-#tooplate_main h2 {
-	color: white;
+.wrappers h2 {
+	padding-top: 65px;
 	font-size: 20px;
-}
-
-#tooplate_main .price p {
+	text-align: center;
 	color: white;
-	font-size: 15px;
 }
 
-.product img{
-	height: 250px;
-	width: 220px;
+.wrappers p {
+	font-size: 15px;
+	color: black;
+	text-align: center;
+}
+
+
+figure img{
+	height: 200px;
+	width: 250px;
 	border: 2px solid black;
 	border-radius: 5px;
 }
